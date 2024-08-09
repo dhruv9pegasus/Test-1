@@ -10,7 +10,7 @@ PATH="${JAVA_HOME}\\bin;${env.PATH}"}
     stages{
         stage('Getcode'){
             steps{
-                git branch:'main',url:https://github.com/dhruv9pegasus/Test-1/edit/main/Jenkinsfile
+                git branch:'main',url:https://github.com/dhruv9pegasus/Test-1.git
                     }
         }
     }
